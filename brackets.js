@@ -36,7 +36,7 @@ const expressions = [
   'correct string  [<>()] with brackets []', //true
   'incorrect string with <[>] brackets',     //false
   '>',                                       //false
-  ''                                         // true
+  ''                                         //true
 ]
 
 expressions.map(expression => console.log(bracketsBalance(expression), expression))
